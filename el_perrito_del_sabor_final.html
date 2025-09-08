@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Expo Emprender Sebastiano 2025 — El Perrito del Sabor</title>
+  <meta name="description" content="Feria de Emprendimiento — Grado Primero vende perros calientes. Información del proyecto, misión, visión, objetivos, políticas, organigrama, menú y más." />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Chewy&display=swap" rel="stylesheet">
+  <style>
+    :root{--c1:#ff6b6b;--c2:#ffd93d;--c3:#4ecdc4;--c4:#5b6cff;--ink:#132238;--bg:#fff8ef;--card:#ffffff;}
+    body{margin:0;background:linear-gradient(135deg,var(--bg),#fff);font-family:"Nunito",sans-serif;color:var(--ink);}
+    .nav{position:sticky;top:0;background:linear-gradient(90deg,rgba(255,107,107,.95),rgba(255,217,61,.95),rgba(78,205,196,.95));padding:.6rem 1rem;box-shadow:0 6px 20px rgba(0,0,0,.12);}
+    .nav-inner{display:flex;gap:.75rem;align-items:center;max-width:1200px;margin:0 auto;}
+    .brand-name{font-family:"Chewy",cursive;color:#111;font-size:1.4rem}
+    .menu{margin-left:auto;display:flex;gap:.6rem;}
+    .menu a{padding:.45rem .7rem;border-radius:999px;text-decoration:none;font-weight:700;color:#111;background:rgba(255,255,255,.8)}
+    .hero{text-align:center;padding:3rem 1rem;background:radial-gradient(circle at 30% top,#ffd93d33,transparent),linear-gradient(180deg,#fff,#fff8ef);}
+    .hero h1{font-family:"Chewy",cursive;font-size:clamp(2rem,5vw,4rem);}
+    .badge{padding:.35rem .7rem;background:linear-gradient(90deg,var(--c3),var(--c4));color:#fff;border-radius:999px;font-weight:800;}
+    .container{max-width:1100px;margin:0 auto;padding:1rem;}
+    .card{background:var(--card);border-radius:24px;padding:1rem;box-shadow:0 8px 24px rgba(17,17,17,.08);margin-bottom:1rem;}
+    table{width:100%;border-collapse:collapse;}
+    th,td{padding:.6rem;border-bottom:1px dashed rgba(0,0,0,.12)}
+    thead th{background:#ffd93d33;}
+    .menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+    .food{border-radius:20px;overflow:hidden;border:2px solid #1111;background:#fff}
+    .food img{width:100%;height:160px;object-fit:cover}
+    .food .p{padding:.8rem}
+    .price{font-weight:900;font-size:1.2rem}
+    footer{text-align:center;padding:2rem;background:#111;color:#fff}
+    footer .muted{opacity:.7}
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#inicio">
+      <img src="logo_emprendimiento.jpg" alt="Logo El Perrito del Sabor" style="width:46px;height:46px;border-radius:50%">
+      <span class="brand-name">El Perrito del Sabor</span>
+    </a>
+    <div class="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#responsables">Responsables</a>
+      <a href="#proyecto">Proyecto</a>
+      <a href="#menu">Menú</a>
+      <a href="#marketing">Marketing</a>
+      <a href="#contacto">Redes</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="inicio" class="hero">
+  <div class="container">
+    <span class="badge">Feria de Emprendimiento • 2025</span>
+    <h1>Expo Emprender Sebastiano 2025</h1>
+    <p>Niños de <strong>grado primero</strong> venden <strong>perros calientes</strong> como parte de su proyecto de emprendimiento: <em>El Perrito del Sabor</em>.</p>
+    <img src="feria_hotdogs.jpg" alt="Feria de emprendimiento El Perrito del Sabor" style="width:100%;max-width:980px;border-radius:24px;margin-top:1rem;border:3px solid #1111;box-shadow:0 16px 40px rgba(17,17,17,.15)"/>
+  </div>
+</header>
+
+<!-- RESPONSABLES -->
+<section id="responsables" class="container card">
+  <h2>Nombre de la empresa</h2>
+  <p><strong>El Perrito del Sabor</strong> — "¡El sabor que enamora a todos!"</p>
+  <div>
+    <h3>Responsables del proyecto</h3>
+    <ul>
+      <li><strong>Docente:</strong> Diana Milena Gómez Niño</li>
+      <li><strong>Docente:</strong> Claudia Milena Delgado Reatiga</li>
+      <li><strong>Grado a cargo:</strong> Primero</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROYECTO -->
+<section id="proyecto" class="container card">
+  <h2>Introducción</h2>
+  <p>El emprendimiento en primaria fortalece habilidades para toda la vida. Con <strong>El Perrito del Sabor</strong>, los estudiantes de grado primero aprenden a trabajar en equipo, planificar, ser responsables y creativos.</p>
+
+  <h2>Justificación</h2>
+  <p>Este proyecto permite a los niños experimentar el liderazgo, la comunicación y la planificación en un contexto real, fortaleciendo la autoestima y el valor del esfuerzo.</p>
+
+  <h2>Marco Teórico</h2>
+  <h3>Legal</h3>
+  <p>Actividad pedagógica institucional, bajo supervisión docente y normas de higiene y seguridad alimentaria.</p>
+  <h3>Conceptual</h3>
+  <ul>
+    <li><strong>Emprendimiento:</strong> Identificar oportunidades y organizar recursos.</li>
+    <li><strong>Educación experiencial:</strong> Aprender haciendo.</li>
+    <li><strong>Trabajo en equipo:</strong> Colaboración para alcanzar objetivos comunes.</li>
+  </ul>
+</section>
+
+<!-- MISIÓN / VISIÓN -->
+<section id="mision" class="container card">
+  <h2>Misión</h2>
+  <p>Formar estudiantes emprendedores mediante la creación de una empresa escolar que comercializa perros calientes, promoviendo valores como la responsabilidad, el trabajo en equipo y la creatividad.</p>
+</section>
+
+<section id="vision" class="container card">
+  <h2>Visión</h2>
+  <p>Para el año 2026, <em>El Perrito del Sabor</em> será una microempresa reconocida dentro de la institución por su organización, sabor y compromiso, siendo un ejemplo de emprendimiento infantil exitoso.</p>
+</section>
+
+<!-- OBJETIVOS -->
+<section id="objetivos" class="container card">
+  <h2>Objetivos</h2>
+  <p><strong>General:</strong> Desarrollar una empresa escolar dirigida por los estudiantes de primero, que promueva el emprendimiento mediante la elaboración y venta de perros calientes.</p>
+  <ul>
+    <li>Fomentar habilidades emprendedoras en los niños.</li>
+    <li>Enseñar conceptos básicos de producción, costos y ventas.</li>
+    <li>Promover el trabajo en equipo y la responsabilidad.</li>
+    <li>Desarrollar creatividad en campañas publicitarias.</li>
+    <li>Reflexionar sobre el valor del esfuerzo y el ahorro.</li>
+  </ul>
+</section>
+
+<!-- POLÍTICAS -->
+<section id="politicas" class="container card">
+  <h2>Políticas de Calidad</h2>
+  <ul>
+    <li>Higiene y manipulación segura de alimentos supervisada por docentes.</li>
+    <li>Uso de insumos frescos y almacenamiento adecuado.</li>
+    <li>Atención amable y servicio rápido.</li>
+  </ul>
+  <h2>Políticas de Devolución</h2>
+  <ul>
+    <li>Si el producto no cumple con las expectativas, será reemplazado de inmediato.</li>
+    <li>No se aceptan devoluciones de productos parcialmente consumidos.</li>
+  </ul>
+</section>
+
+<!-- MARKETING -->
+<section id="marketing" class="container card">
+  <h2>Propuesta de Marketing y Publicidad</h2>
+  <ul>
+    <li>Carteles hechos por los niños con colores vivos.</li>
+    <li>Perifoneo durante los recreos.</li>
+    <li>Publicaciones en redes sociales institucionales.</li>
+  </ul>
+  <img src="carteles_niños.jpg" alt="Carteles hechos por los niños" style="width:100%;border-radius:16px;border:2px solid #1112"/>
+</section>
+
+<!-- PRESUPUESTO -->
+<section id="presupuesto" class="container card">
+  <h2>Proveedores y Presupuesto</h2>
+  <p><strong>Precio por perro caliente:</strong> $7.000 COP</p>
+  <table>
+    <thead><tr><th>Insumo</th><th>Proveedor</th><th>Observación</th></tr></thead>
+    <tbody>
+      <tr><td>Pan</td><td>Proveedor local</td><td>Pan fresco del día</td></tr>
+      <tr><td>Salchichas</td><td>Distribuidor autorizado</td><td>Cadena de frío</td></tr>
+      <tr><td>Salsas</td><td>Supermercado</td><td>Sellos al día</td></tr>
+      <tr><td>Servilletas y desechables</td><td>Mayorista</td><td>Biodegradables</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ORGANIGRAMA -->
+<section id="organigrama" class="container card">
+  <h2>Organigrama y Funciones</h2>
+  <ul>
+    <li><strong>Gerente General (Docente):</strong> Supervisión del proyecto.</li>
+    <li><strong>Finanzas (Docente):</strong> Conteo de dinero, costos y ganancias.</li>
+    <li><strong>Producción (niños y docentes):</strong> Preparación y armado de perros calientes.</li>
+    <li><strong>Marketing (niños):</strong> Carteles, promociones y atracción de clientes.</li>
+  </ul>
+  <img src="equipo_trabajo.jpg" alt="Niños trabajando en equipo" style="width:100%;border-radius:16px;border:2px solid #1112"/>
+</section>
+
+<!-- MENÚ -->
+<section id="menu" class="container card">
+  <h2>Menú</h2>
+  <div class="menu-grid">
+    <article class="food">
+      <img src="perro_caliente.jpg" alt="Perro caliente clásico"/>
+      <div class="p">
+        <h3>Perro caliente clásico</h3>
+        <p>Pan suave, salchicha, queso, salsas al gusto y papitas trituradas.</p>
+        <div class="price">$7.000</div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- PEDAGOGÍA -->
+<section id="pedagogia" class="container card">
+  <h2>Estrategias Pedagógicas</h2>
+  <ul>
+    <li>Aprendizaje Basado en Proyectos (ABP).</li>
+    <li>Juegos de roles y simulacros de venta.</li>
+    <li>Preparación y comercialización real en feria escolar.</li>
+  </ul>
+  <h2>Recursos</h2>
+  <p>Pan, salchichas, salsas, servilletas, decoración, cartulina, horno/microondas.</p>
+  <h2>Evaluación</h2>
+  <ul>
+    <li>Participación y trabajo en equipo.</li>
+    <li>Creatividad y cumplimiento de tareas.</li>
+    <li>Ventas logradas.</li>
+  </ul>
+  <h2>Metas de Calidad</h2>
+  <ul>
+    <li>Venta total de los productos ofrecidos.</li>
+    <li>Satisfacción de los clientes ≥ 90%.</li>
+    <li>Cero incidentes de higiene.</li>
+  </ul>
+  <h2>Bibliografía</h2>
+  <p>Documentación institucional, lineamientos pedagógicos y guías de emprendimiento escolar.</p>
+</section>
+
+<!-- REDES SOCIALES -->
+<section id="contacto" class="container card">
+  <h2>Redes Sociales</h2>
+  <ul>
+    <li><a href="https://instagram.com/sansebastian.gc" target="_blank">Instagram: @sansebastian.gc</a></li>
+    <li><a href="https://facebook.com" target="_blank">Facebook: San Sebastián Gimnasio Campestre</a></li>
+    <li><a href="https://tiktok.com/@colegio_sansebastian" target="_blank">TikTok: @colegio_sansebastian</a></li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2025 El Perrito del Sabor — San Sebastián Gimnasio Campestre</p>
+  <p class="muted">Hecho con ❤ por grado primero</p>
+</footer>
+
+</body>
+</html>
